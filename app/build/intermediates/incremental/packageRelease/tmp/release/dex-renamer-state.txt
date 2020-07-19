@@ -1,0 +1,4 @@
+#Mon Oct 07 20:43:18 PDT 2019
+base.0=D\:\\coding\\AppMobile\\AppMobile\\Afiqro\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

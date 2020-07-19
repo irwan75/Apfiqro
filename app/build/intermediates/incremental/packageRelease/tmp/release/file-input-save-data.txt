@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Oct 07 20:43:18 PDT 2019
+0.baseType=DIRECTORY
+0.base=D\:\\coding\\AppMobile\\AppMobile\\Afiqro\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1

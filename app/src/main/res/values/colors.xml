@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EEAE2B</color>
+    <color name="colorPrimaryDark">#EEAE2B</color>
+    <color name="colorAccent">#EEAE2B</color>
+    <color name="colorBg">#409C88</color>
+    <color name="colorToolbar">#EEAE2B</color>
+    <color name="tabText">#fff</color>
+    <color name="load">#050505</color>
+    <color name="tabIndicator">#EEAE2B</color>
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+    <color name="color5">#3D82DF</color>
+    <color name="color6">#F33A8B</color>
+    <color name="color7">#F5DF4F</color>
+    <color name="color8">#84CCEC</color>
+</resources>

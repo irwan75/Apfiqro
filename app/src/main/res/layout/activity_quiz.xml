@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:elevation="0dp"
+        android:id="@+id/appBar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/quiz"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:id="@+id/tabLay"
+        app:tabTextColor="@color/tabText"
+        app:tabIndicator="@color/tabIndicator"
+        android:background="@color/colorBg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/quis"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan Kuis"/>
+
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/pilihanA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan A"/>
+
+            <RadioButton
+                android:id="@+id/pilihanB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan B"/>
+
+            <RadioButton
+                android:id="@+id/pilihanC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan C"/>
+
+            <RadioButton
+                android:id="@+id/pilihanD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan D"/>
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/tabText"
+                android:text="Next"
+                android:layout_alignParentBottom="true"
+                android:onClick="next"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
